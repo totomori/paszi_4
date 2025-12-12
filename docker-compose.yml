@@ -6,7 +6,7 @@ services:
     container_name: db
     restart: always
     environment:
-      POSTGRES_PASSWORD: 364599ops
+      POSTGRES_PASSWORD: postgres
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_DB: ${POSTGRES_DB}
     ports:
